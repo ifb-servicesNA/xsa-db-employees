@@ -1,6 +1,6 @@
 # xsa-db-employees
 
-A simple standalone employees xsa db repository that contains the following two tables.
+A simple standalone xsa db repository that contains the following two tables.
 
 |table name| purpose |
 |----------|---------|
