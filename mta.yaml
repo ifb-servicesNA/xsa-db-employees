@@ -1,0 +1,16 @@
+ID: xsa-db-employees
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: employees
+   type: hdb
+   path: employees
+   requires:
+    - name: hdi_employees
+
+resources:
+ - name: hdi_employees
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container

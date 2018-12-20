@@ -1,0 +1,18 @@
+namespace "xsa-db-employees".employees;
+
+context employee {
+	
+	entity person{
+		key id: Integer;
+		name: String(50);
+		age: Integer;
+	};
+	
+	entity vacations {
+		key id: Integer;
+		reason: String(255);
+		employee: association to person;
+	}
+	
+	
+};
