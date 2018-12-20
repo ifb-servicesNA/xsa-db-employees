@@ -1,7 +1,16 @@
+/**
+* A standalone db module representing 
+* employees with person table 
+* and vacations table
+*/
 namespace "xsa-db-employees".employees;
 
 context employee {
 	
+	/*
+	* This table will later be used to 
+	* demonstrate extensions.
+	*/
 	entity person{
 		key id: Integer;
 		name: String(50);
