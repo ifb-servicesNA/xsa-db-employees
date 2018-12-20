@@ -5,7 +5,6 @@ A simple standalone employees xsa db repository that contains the following two 
 |table name| purpose |
 |----------|---------|
 | person |table for demonstrating extensions|
-|----------|---------|
 | vacation |just a normal table with association to person|
 
 This micro db module will later be consumed by the companies module.
